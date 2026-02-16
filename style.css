@@ -1,7 +1,8 @@
 h2{
     color:rgb(188, 128, 49)
 }
-body    
-{
-    background-color:burlywood
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: burlywood;
 }
