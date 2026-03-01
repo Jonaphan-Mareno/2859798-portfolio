@@ -1,21 +1,108 @@
+@font-face {
+    font-family: "Pokemon Hollow";           
+    src: url("images/Pokemon\ Solid.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+#input{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 30px;
+}
+#btn1{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 40px;
+    color: rgb(180, 120, 43);
+}
+#conclusion{
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+
+
+
 h2{
-    color:rgb(188, 128, 49)
+    font-family: "Pokemon Hollow";
+    font-weight: normal;
+    font-style: normal;
+    color:rgb(184, 135, 71);
 }
 html, body {
     height: 100%;
     margin: 0;
     background-color: burlywood;
 }
-button{
-    color: rgb(180, 120, 43);
+#btn{
+color: rgb(180, 120, 43);
+    position: absolute;
+    top:35%;
+    left: 60%;
+    transform: translate(-50%, -50%);
     width: 150px;
     height: 75px;
-    display:block;
-    margin: 0 auto;
+
 }
+#easy{
+    color: rgb(180, 120, 43);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 75px;
+}
+#btn2{
+    position: absolute;
+    top: 55%;
+    left:51%;
+    transform: translate(-50%, -50%);
+    
+}
+#help{
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+#answer{
+    
+    position: absolute;
+    top: 28%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+   font-size: 20px;
+}
+#hard{
+    color: rgb(180, 120, 43);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 75px;
+}
+
 img{
-    display:block;
-    margin: 0 auto;
+    align-content: center;
+
     width: 300px;
     height: 300px;
+    color:black;
+}
+.blacky{
+    filter: grayscale(100%) brightness(0);
+}
+.hidden {
+    display: none;
 }
