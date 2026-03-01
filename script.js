@@ -14,12 +14,10 @@ let j=0;
 let data;
 button.addEventListener("click",async ()=>{
     i=0;
-    if(input.value.toLowerCase()!==""){
-        input.value="";
-        conclusion.textContent="";
-        help.textContent="";
-        answer.textContent="";
-    }
+    input.value="";
+    conclusion.textContent="";
+    help.textContent="";
+    answer.textContent="";
     thingy.style.visibility = "hidden";
     const id=Math.floor(Math.random()*800);
     const URL="https://pokeapi.co/api/v2/pokemon/"+id;
